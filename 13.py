@@ -1,0 +1,6 @@
+x1 = float(input("Introduce el valor de x1: "))
+y1 = float(input("Introduce el valor de y1: "))
+x2 = float(input("Introduce el valor de x2: "))
+y2 = float(input("Introduce el valor de y2: "))
+pendiente = (y2 - y1) / (x2 - x1)
+print(f"La pendiente de la recta es: {pendiente}")
